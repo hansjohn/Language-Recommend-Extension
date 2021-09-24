@@ -2,8 +2,9 @@
 	"name": "language-recommend-extension",
 	"displayName": "Language-Recommend-Extension",
 	"description": "to recommend extension based on language",
+	"repository": {"url": "https://github.com/hansjohn/Language-Recommend-Extension.git"},
 	"publisher": "johnhans",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
@@ -25,7 +26,7 @@
 			{
 				"title": "language-recommend-extension",
 				"properties": {
-					"set recommended extensions for each language": {
+					"recommended-extensions-for-each-language": {
 						"type": "object",
 						"default": [
 							

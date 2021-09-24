@@ -31,7 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
 				// quickPick.show();
 				
 				for (var i = 0; i < myExtension.length; i++){
-					await vscode.window.showInformationMessage("enable extension" + myExtension[i] + "?","ok","cancel")
+					await vscode.window.showInformationMessage("enable extension " + myExtension[i] + "?","ok","cancel")
 						.then(async function (res) {
 							if (res == "ok") {
 								if (myExtension != undefined) {
